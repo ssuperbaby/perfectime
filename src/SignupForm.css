@@ -1,0 +1,29 @@
+/* SignupForm.css */
+
+.signup-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.app-title {
+  margin-bottom: 20px;
+}
+
+.label-input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.button-container {
+  margin-top: 20px;
+}
+
+/* 기존 스타일 유지 */
+.login-button {
+  margin-top: 10px; /* 로그인 버튼과 일정한 간격 유지 */
+}

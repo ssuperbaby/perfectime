@@ -1,0 +1,26 @@
+/* EditEvent.css */
+
+.edit-event-container {
+  padding: 20px;
+}
+
+.edit-event-container h1 {
+  margin-bottom: 20px;
+}
+
+.edit-event-container ul {
+  list-style: none;
+}
+
+.edit-event-container li {
+  margin-bottom: 10px;
+}
+
+.edit-event-container li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.edit-event-container input {
+  margin-right: 10px;
+}

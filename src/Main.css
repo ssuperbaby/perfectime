@@ -1,0 +1,61 @@
+/* Main.css */
+
+.main-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 100vh;
+  position: relative; /* 부모 컨테이너에 상대적인 위치 설정 */
+}
+
+.calendar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 요소들을 가운데에 배치합니다. */
+  justify-content: center; /* 요소들을 가운데에 배치합니다. */
+  height: 100vh;
+  padding-left: 50px; /* 왼쪽에 여백 추가 */
+}
+
+.title-container {
+  display: flex;
+  align-items: flex-end;
+}
+
+.title-container h1 {
+  color: #ffcc00;
+  margin-right: 10px;
+  font-size: 50px;
+}
+
+.gold-text {
+  color: #ae8d08;
+  font-size: 20px;
+}
+
+.calendar {
+  width: 100%; /* 가운데 달력의 너비를 70%로 조절 */
+  margin-left: 00px;
+}
+
+.weekly-calendar-container {
+  width: 63%; /* 가운데 달력의 너비를 70%로 조절 */
+  margin-left: 50px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.custom-button {
+  margin: 0 10px;
+  padding: 10px 15px;
+  font-size: 13px;
+  border: none;
+  background-color: #ffcc00;
+  color: white;
+  cursor: pointer;
+}
